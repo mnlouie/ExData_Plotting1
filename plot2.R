@@ -13,7 +13,7 @@ plot2 <- function(){
   
   
   png('plot2.png', width=480, height=480, units='px',pointsize=12)
-  plot(x,ysmo,ylab="Global Active Power (kilowatts)",type='l', xlab="")
+  plot(x,y,ylab="Global Active Power (kilowatts)",type='l', xlab="")
   dev.off()
   
   
